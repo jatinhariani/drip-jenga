@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1 class="white--text text-xs-center">Drip Jenga Scores</h1>
+    <h1 class="white--text text-xs-center">Drip Jenga Leaderboards</h1>
     <v-data-table
       :headers="headers"
       :items="players"
