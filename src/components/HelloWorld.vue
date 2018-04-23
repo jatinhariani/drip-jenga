@@ -9,7 +9,7 @@
     >
       <template slot="items" slot-scope="props">
         <td>{{ props.item.name }}</td>
-        <td>{{ props.item.score }}</td>
+        <td class="text-xs-right">{{ props.item.score }}</td>
       </template>
     </v-data-table>
   </div>
@@ -24,7 +24,7 @@ export default {
         value: 'name'
       }, {
         text: 'Losses',
-        value: 'losses'
+        value: 'score'
       }],
       players: []
     }
